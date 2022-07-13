@@ -1,0 +1,29 @@
+TP 2
+
+
+aMOSTRA p1 - Amostrar emparelhadas usar a opcao pcired?? = TRUE
+
+Amostras independentes:
+	averiguar se as variancao soa iguas oi difentes, embora desconhecidas
+	isso faz-se atraves do teste de levene -> H0: variancias iguais, H1: variancias diferentes, ??d=0.05??
+		-para decidir se as variancias são iguais ou diferentes.
+	
+	//se não disser nada, conclui nível de significancia 100%???? alfa=100%
+	
+	p.value < d variancias diferentes -> t.test var.equal=FLASE
+	p.value > d variamcias iguais. -> t.test var.equal= TRUE
+	
+	
+	
+
+alfa é o menor valor para a qual não rejeitamos a hipotese nula //(n ouvii a aultima palavra.)
+	p.value é muito importante
+
+posso fazer o t.test pois os dados são prov de uma dist. normal e a amostra é pequena.
+
+ a funcao e sempre a memsa -> t.test()
+
+
+
+
+

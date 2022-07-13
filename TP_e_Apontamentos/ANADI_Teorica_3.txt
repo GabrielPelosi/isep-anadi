@@ -1,0 +1,114 @@
+
+-Teórica 3-
+
+Se forem testes exatos sao apramétricos, se forem aproximados sao não parametricos.
+
+Teste as proporcoes -> teste binomial
+Teste as médias -> testes ...
+
+
+prop.test((nª de sucessos de amostra A,B), (tam da mostra A,B), coorect=FALSE)
+prop.test(c(13,14),c(63,45),correct=FALSE)
+
+res que interessa é o p.value
+compara p value com alfa
+
+o p value sendo sup a aflata, n negamos a hipotese nula, ou sej,
+ n há evidencias estatistica que a proporcao ...(n consegui ouvir)
+
+Teste X^2 não será dado, sltar a frente.
+
+
+Testes à igualdades de variancias.
+	>var.test n será usado, pois há um mais atual.
+	> será usado o teste de levene, mais atual.
+	> verifica se K pop tem variancias iguais. Vamos usar só para duas.
+	>A estat. de teste em uma form mt complicada. n precisamos de saber.
+	>??A hipotese nula é que as var são iguais a todas as pop vs pelo menos há um par de pop. 
+		com variacnais difernetes??
+	>Levene.test()
+	>
+
+One Way ANOVA, compara duas médias.
+	> Queremos saber se as médias são todas iguais, ou se pelo menos há um par de pop em que 
+		as medias são dif, ai temos de fazer um teste ANOVA.
+	> Assumimos que as amostras são todas independentes, 
+	> Num ANOVA tem-se:
+		-
+		-
+	>Exemplo
+		Veri se as notas do exame diferente para diferentes niveus de ansiedade.
+		Nivel baixo, med  e alto
+		Quero saber se as medias são iguais para esses 3 niveis.
+		Tenho 3 pop.(os 3 niveis de ansiedade)
+		
+		!!As amostras tem de ser independentes!!. As outas cond todas(no slide) vamos ignoralas 
+			não estão ligadas por qualquer indentidade.
+		Não precisamos saber os cálculos.
+		Existem 2 formas
+			- usando o aov()
+			- ou usa-se o anova, mas são maneiras difernetes
+			- aov será a usada
+			- 4 pop. de morcegos. S1 até S4
+			- pretendo saber se a medias do peso dos morcego das 4 pop. são iguais
+			- para fazer o teste anova, separa-se as 4 amostras
+			- construo um data-frame.
+			- cbind()??? ver nas TPs.
+			- aov(col1~col2, data=data-frame)
+				ver o que são esses col na TP.
+			- o p-value rejeita a hipotese nula.
+			- pois a media dos pesos não  são todas iguais para o nível de significancia superior a 0.65%
+			- para mais info, faz-se um ??post-toc?? não será dado nas aulas, teremos de pesquisar
+				- analise posterior ao anova.
+			
+
+Testes não paramétricos.
+	> Não exigem os presupostso que os paramétricos exigem
+	> o t.test exige que as amostras ou fossem gtandes ou então que fossem provenientes de uma dist. normal.
+	> no caso de serem pequenas ou não providnas d e dis. normail, temos de fazer teste n paramétricos
+	> baseia-se em estatícitca de ordem
+	> costumam ser menos eficientes que os paramétricos
+	> pois as amostras são peq e não veemd e deistribuicao normal-
+	> só se devem aplicar quando não temos hip de teste paramétrico
+
+Teste de sinal
+	>Teste para a mediana de uma população.
+	> se a dis for simétrica, esse teste serve também para a média
+	> em dis simétrica, a média é igual a mediana.
+	>Esse teste conta as obs que estão a cima da mediana, os que estão a baixo e faz dist binomial
+	>
+	> 
+	> Teste do sinal -> SIGN.test
+	> quando da empate retiram-se esses valores e reduz o tam da amostra.
+	> teste usado em ultimo recurso
+	> perde-se muita informação.
+	> só considera-se os sinais, não sabe se a dif. é grande ou não.
+Teste de Wilcoxson
+	> considera o sinal e a ordem.
+	> teste feito a mediana
+	> caso a distribuição seja simétrica, pode ser feito também a média.
+	> calcula-se o skewness, se for em val abs menor que 1, a dsitrib é simétrica
+		> se for maior que um, não pode-se fazer esse teste à média
+	> esse teste também é poss fazer se a s duas amostras são emparelhadas
+		ai faz a diff. das duas amostras.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

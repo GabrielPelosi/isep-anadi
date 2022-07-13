@@ -1,0 +1,34 @@
+Pagina 12 TP1.
+
+Mediana - menos sensilve a existencia de "outliers"  -> valores "errados" basicamente.
+a media é sensível a valores fora do normal, como por ex. 5 alturas e numa delas enganaram-se e colocaram
+10.500, a mediana não é sensível a esse valor, e a média sim.
+
+quantile -> 25% 1º quartil, 50% (2º quartil) mediana, 75% 3º quartil.
+
+ ("inicio") : passo : ("fim") 
+
+1:100 -> 1:1:100
+
+1:0.5:100
+
+
+• Variância (amostral) indica a proximidade com que os valores estão agrupados à volta
+da média; um valor pequeno significa que os valores estão pouco espalhados.
+
+
+• Desvio padrãoé a raíz quadrada positiva da variância.
+
+Distribuicao assimétrica.
+
+Nas distribuiccoes,
+
+quanto mais achatada a curva, mais variança há, quanto maior a curva, mais os valore se aproximam.
+
+
+Os valores inferiores a BI ou superiores a BS são chamados de *outliers*.
+– *outliers severos* são valores inferiores a q1/4−3 AIQ ou superiores a q3/4+3 AIQ.
+– As caixas de bigodes são bastantes úteis para intrepretar tanto a localização como
+a dispersão dos dados
+
+

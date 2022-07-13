@@ -1,0 +1,51 @@
+
+
+coeficiente de correlacao for proximo de -1
+
+	quando uma aumente outra diminui.
+
+correlacao linear de pearson
+	- tem-se -1 <= r <= 1
+	. para distribuições contínuas
+	. se o coeficiente estiver prox de 1 estão fortemente correlacionadas
+	. se tiver prox de 0 estão fracamente correlacionadas
+	. se tiver prox de -1 estão negativamente correlacionadas.
+	- NÂO INDICA RELACAO DE CAUSUALIDADE.
+	Exemplo
+	- x horas de estudo
+	- y nota
+		. quero saber se existe correlacao entre essas duas variaveis,
+		- alternativa="two.sided" teste bilatral.
+		- method=person, indica teste de pearson.
+		. 
+		. hipotese nula correlacao = 0, 
+
+correlacao ordinal de spearman
+	- teste para quando varaiveis são ordinais ou uma delas é contínua e a outra ordinal.
+	- função é a mesmta, method="spearman"
+	Exemplo:	
+		p-value alto, então o valor de correlacao não é estatisticamente valido.
+
+coeficiente de Kendall
+	. alternativa ao Spearman, usa dos mesmos presupostos, duas ordinal ou uma contínua e outra ordinal-
+	.  com p-value alto, maior que 0.05, não pode ser valido 
+
+
+
+Modelo de regra~~so simples.
+	. usa-se quando há uma relação linear entre a variável dependente e a variável dependente.
+	. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

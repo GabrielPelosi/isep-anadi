@@ -1,0 +1,63 @@
+
+Teorica 4
+
+Quando a meida
+
+testes n parametricos, utiliza uma n sei qo de ordem, geralmente a mediana e não a média.
+
+
+se eu conseguir mostrar que a distribuicao é simétrica, ou sej,a se dos dados serem moderadamente simetricos ou simetetrics
+	calcula-se o coeficiente da simetria dos dados e se esse coefi foe em modulo menor q 1, eça é simétrica
+		sendo simétricac, a média é igual a mediana.
+
+
+Teste do sinal deve ser feito em último recurso, pois perde-se muita informação
+
+
+
+wilcox.test(paired=TRUE) -> indica amostars emparelhadas.
+
+
+Teste de Fiedman:
+	-
+
+
+
+Teste de Kruskal-Wallis
+	deve ser feito quando uma das amostras for pequena, deve-se fazer o teste de kruskal
+		ou então quando a hipotese de normalidade for rejeitada. 
+		Quando as amostras forem independentes e eu não puder fazer o teste tal, 
+		faço o teste de kruskal-wallis. Se forem emparelhadas faço  o teste de Friedman.
+
+
+
+
+como ver se os dados são normais ou não.
+	teste de ajustamento.
+	- Teste de levinne, saber se as pop tem a mesma variancia ou não.
+	- esses testa são mais gerais. buscam saber se as amsotras sao porvenientes de uma
+		dsitribuicao normal ou não.
+	- teste x^2 será ignorado.
+	- teste kolmogorov-Smirnov não será usado também.
+		- é um teste que usa um conuhto de dados e busca saber se a pop é normal com 
+			média e desvio padrão dado.
+	
+
+A hipotese nula é que eles são provenientes de uma distribuição normal, a hipotese alternativa
+	diz que não são prov. de uma distribuição normal.
+	
+
+Teste de ~Lilliefors - quer saber se faço teste para ou não paramétricos
+	se o p-value for mt gtande diz que as amostras são prov de uma dist normal 
+			ent posso fazer um T Teste.
+	se não faço um teste de willcoxson.
+	
+
+Teste de shapiro-wilk.
+	Ho dados são prov de uma dist normal, H1 não são prov de uma dist normal.
+	na prática aceita mais os testes de shapiro dos que o lilliefors.
+	Pois pode haver contradição, em que um teste diz uma coisa e outro diz outra.
+	por isso aceita-se mais o teste de shapiro para amostras pequenas e para 
+		grandes o teste de lilliefors.
+	
+	

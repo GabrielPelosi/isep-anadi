@@ -1,0 +1,29 @@
+se a variável for numérica, estamos perante uma regressão e devemos escolher alg de regressão
+e as medidas de av devem ser para o tipo do problema
+
+se as variaveis foram categorias, labels, classes e tal. estamos perante uma clssificação.
+
+tem-se temepraturas soltar -> variaveis numérica
+se tiver um classificador para as temperaturas será classificação.
+
+Métricas de erro
+ - erro médio absoluto.
+ - raiz quadrada do erro médio
+   . o modelo é quanto melhto quanto menor for o erro médio.
+
+Avaliação dos modelos
+ - Holdout:
+	. Normalmente separa-se os dados 70% para treino e 30% para testes
+ - Cross-validation:
+	. para dateset menores.
+
+ - sample()
+	. cria nums aleatório 
+
+ - predict(modelo, valores de teste)
+
+d <- market.tst$sales - slr.pred 
+	. diferença entre valores aproximados e reais.
+
+Regressão múltipla é a mesma coisa, porém há mais variáveis, não é uma reta é um plano.
+ 

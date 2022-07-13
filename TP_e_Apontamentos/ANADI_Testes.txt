@@ -1,0 +1,56 @@
+
+Teste one-way ANOVA
+
+	- é usado para determinar se existem diferenças estatisticamente significativas entre as médias de três 
+	ou mais grupos independentes (não relacionados).
+
+Teste Levene
+	- é uma estatística inferencial usada para avaliar a igualdade de variâncias de uma variável 
+	calculada para dois ou mais grupos.[1] Alguns procedimentos estatísticos comuns presumem que as 
+	variâncias das populações das quais as diferentes amostras são extraídas são iguais. 
+	O teste de Levene avalia essa suposição. Ele testa a hipótese nula de que as variâncias populacionais 
+	são iguais (chamada de homogeneidade de variância ou homocedasticidade). Se o valor-p resultante do 
+	teste de Levene for menor que algum nível de significância (normalmente 0,05), é improvável que as ~
+	diferenças obtidas nas variâncias amostrais tenham ocorrido com base na amostragem aleatória de uma 
+	população com variâncias iguais. Assim, a hipótese nula de variâncias iguais é rejeitada e conclui-se 
+	que há diferença entre as variâncias na população.
+
+
+Teste binomial para duas proporçõe
+Teste binomial para uma proporção
+
+
+Teste de shapiro x Teste de Lilliefors
+	- O teste de Shapiro-Wilk é um teste de normalidade na estatística frequentista.
+	-Lilliefors fez uma correcção ao teste de K-S de modo a testar,
+	independentemente dos valores da média e do desvio padrão se a
+	amostra é proveniente de uma distribuição normal ou não.
+
+	- Geralmente efectua-se o teste de Lilliefors para amostras grandes
+	(n ≥ 30) enquanto para amostras de dimensão mais reduzida é mais
+	indicado efetuar o teste de Shapiro-Wilk.
+
+
+Teste de kruskal
+	- Este teste é a alternativa não paramétrica do teste One-Way ANOVA.
+	Deve-se utilizar quando a hipótese da normalidade for rejeitada ou se
+	o tamanho das amostras forem pequenas.
+	Supor que dispomos de k amostras independentes:
+	
+	-O objectivo do teste de Kruskal-Wallis é testar se uma dada variável
+	qualitativa, designada de factor tem efeitos iguais sobre uma
+	determinada variável quantitativa.
+	
+Teste de Friedman
+	- Supor que dispomos de n × k observações de uma v.a. quantitativa avaliada por n
+	indivíduos sujeitos a k tratamentos de um determinado factor (variável qualitativa)
+
+
+
+
+
+
+
+
+
+
